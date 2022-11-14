@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Barlow', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60;
+    background: #eee;
+}
+
+.container .content{
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    max-width: 900px;
+    margin: 0 10px;
+}
+
+.container .content h1{
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container .content h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.container .content .description{
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.2em;
+}
+
+.container .content .profilepicture{
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.container .content table{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container .content table tr .tablecolumn{
+    font-size: 18px;
+    background: #eee;
+    color: #333;
+    border-bottom: 10px solid #fff;
+}
+
+.container .content table tr .skill{
+    width: 50%;
+}
+
+.container .content table tr .rating{
+    width: 50%;
+}
+
+.container .content table tr td{
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.container .content table tr th{
+    padding: 10px;
+}
+
+.container .content table tr .workingtime{
+    min-width: 30%;
+}
+
+.container .content table tr .workingtitle{
+    width: 70%;
+}
